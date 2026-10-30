@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Bantuan Formulir Asesor LSP",
+  "version": "1.0.0",
+  "description": "Bantuan pengisian formulir FRIA01 dan FRIA03.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://app.lspdigitalmarketing.id/dashboard/asesor/dokumen-fria01/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    },
+    {
+      "matches": [
+        "https://app.lspdigitalmarketing.id/dashboard/asesor/dokumen-fria03/*"
+      ],
+      "js": [
+        "fria03.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
