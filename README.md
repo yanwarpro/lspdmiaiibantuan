@@ -13,7 +13,8 @@ butir dan bukti asesmen, **Ya untuk baris aktif** memilih "Ya" hanya pada satu
 baris yang sedang disorot. Tidak ada pilihan yang dibuat massal.
 
 Kedua panel dapat diminimalkan dengan tombol **Minimalkan alat bantu**.
-Dalam keadaan minim, penanda **Bantuan** tetap terlihat.
+Dalam keadaan minim, penanda **Bantuan** tetap terlihat samar dan menjadi
+lebih jelas saat diarahkan atau difokuskan.
 
 ## Instalasi
 

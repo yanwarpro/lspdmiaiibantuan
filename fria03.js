@@ -41,8 +41,18 @@
       button.minimize {
         display: block; width: 100%; margin-top: 7px;
         color: #172033; background: #fff; border: 1px solid #aeb8c7;
+        transition: opacity .15s ease;
       }
       button.minimize:hover { background: #f0f3f8; }
+      button.minimize.is-minimized {
+        background: rgb(255 255 255 / 70%);
+        border-color: rgb(174 184 199 / 55%);
+        opacity: .58;
+      }
+      button.minimize.is-minimized:hover,
+      button.minimize.is-minimized:focus-visible {
+        opacity: 1; background: #f0f3f8;
+      }
       select { color: #172033; background: #fff; border: 1px solid #aeb8c7; }
       .feedback { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 7px; }
       .status {
@@ -86,6 +96,7 @@
 
   minimizeButton.addEventListener('click', () => {
     const minimized = tools.classList.toggle('hidden');
+    minimizeButton.classList.toggle('is-minimized', minimized);
     minimizeButton.setAttribute('aria-expanded', String(!minimized));
     minimizeButton.textContent = minimized
       ? 'Bantuan'
