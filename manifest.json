@@ -6,7 +6,8 @@
   "content_scripts": [
     {
       "matches": [
-        "https://app.lspdigitalmarketing.id/dashboard/asesor/dokumen-fria01/*"
+        "https://app.lspdigitalmarketing.id/dashboard/*",
+        "https://app.lspartificialintelligence.id/dashboard/*"
       ],
       "js": [
         "content.js"
@@ -15,7 +16,8 @@
     },
     {
       "matches": [
-        "https://app.lspdigitalmarketing.id/dashboard/asesor/dokumen-fria03/*"
+        "https://app.lspdigitalmarketing.id/dashboard/*",
+        "https://app.lspartificialintelligence.id/dashboard/*"
       ],
       "js": [
         "fria03.js"

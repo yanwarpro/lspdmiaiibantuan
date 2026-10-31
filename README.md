@@ -1,8 +1,9 @@
 # Bantuan Formulir Asesor LSP
 
 Ekstensi menyediakan bantuan pengisian terbatas untuk formulir FRIA01 dan
-FRIA03 pada seluruh ID asesi/asesmen di domain LSP Digital Marketing
-Indonesia. Simpan perubahan tetap dilakukan manual.
+FRIA03 pada seluruh ID asesi/asesmen di domain LSP Digital Marketing Indonesia
+dan LSP Artificial Intelligence Indonesia. Simpan perubahan tetap dilakukan
+manual.
 
 Pada FRIA01, ekstensi menambahkan tombol untuk mengisi tanda
 "-" pada field teks di kolom "Penilaian Lanjut". Checklist "Ya/Tidak" tidak
@@ -22,6 +23,10 @@ lebih jelas saat diarahkan atau difokuskan.
 2. Aktifkan **Developer mode**.
 3. Pilih **Load unpacked** lalu pilih folder ekstensi ini.
 4. Buka atau muat ulang halaman FRIA01 atau FRIA03.
+
+Ekstensi memantau navigasi di dalam dashboard. Saat berpindah ke halaman
+FRIA01 atau FRIA03 tanpa memuat ulang browser, panel bantuan akan mengikuti
+halaman yang sedang dibuka.
 
 ## Penggunaan
 
